@@ -1,0 +1,15 @@
+@use "../../styles/common";
+.book-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid common.$color-white;
+  padding: 16px;
+  color: common.$color-white;
+  width: 90%;
+  margin: 3px 0;
+}
+.book-actions {
+  display: flex;
+  gap: 8px;
+}

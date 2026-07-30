@@ -1,0 +1,10 @@
+@use "../../styles/common";
+
+.header {
+  text-align: center;
+  h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: common.$color-white;
+  }
+}

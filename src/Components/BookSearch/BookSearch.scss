@@ -1,0 +1,13 @@
+@use "../../styles/common";
+
+.book-search {
+  display: flex;
+  justify-content: center;
+  #book-search {
+    padding: 10px 30px;
+    color: common.$color-text;
+    font-size: 1.25em;
+    border: 1px solid common.$color-text;
+    border-radius: 5px;
+  }
+}

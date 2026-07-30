@@ -1,0 +1,17 @@
+@use "../../styles/common";
+.book-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.book-info {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border: 1px solid common.$color-white;
+  padding: 16px;
+  color: common.$color-white;
+  width: 90%;
+  margin: 3px 0;
+}
