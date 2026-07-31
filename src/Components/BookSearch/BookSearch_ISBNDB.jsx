@@ -1,14 +1,14 @@
 import { useState } from "react";
-import "./BookSearch_COBISS.scss";
+import "./BookSearch_ISBNDB.scss";
 
 import Button from "../Button/Button.jsx";
 
-const BookSearch_COBISS = ({ onSearch }) => {
+const BookSearch_ISBNDB = ({ onSearch }) => {
     const [value, setValue] = useState("");
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        onSearch(value);                                     // send COBISS.ID to App
+        onSearch(value);                                     // send ISBN to App
     };
 
     return (
@@ -16,15 +16,15 @@ const BookSearch_COBISS = ({ onSearch }) => {
             <div className="book-search-row" >
                 <form onSubmit={handleSubmit}>
                     <input
-                        className="book-search-input" name="book-search" type="text" placeholder="COBISS.ID"
+                        className="book-search-input" name="book-search" type="text" placeholder="ISBN"
                         value={value}
                         onChange={(e) => setValue(e.target.value)} />
-                    <Button title="Search Book in COBISS" classList="btn btn-primary" />
+                    <Button title="Search Book on net" classList="btn btn-primary" />
                 </form>
             </div>
         </div>
     );
 };
 
-export default BookSearch_COBISS;
+export default BookSearch_ISBNDB;
 

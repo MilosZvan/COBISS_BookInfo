@@ -1,0 +1,26 @@
+@use "../../styles/common";
+
+.book-info {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid common.$color-white;
+  padding: 16px;
+  color: common.$color-white;
+  width: 90%;
+  margin: 3px 0;
+}
+.book-details {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: flex-start;
+
+}
+.book-fakts {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+  gap: 1px;
+}
+

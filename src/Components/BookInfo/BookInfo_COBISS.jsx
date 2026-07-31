@@ -1,38 +1,52 @@
-import React, {useState, useEffect} from "react";
+import { useEffect, useState } from "react";
+import "./BookInfo_COBISS.scss";
 
 const BookInfo_COBISS = ({ cobiss }) => {
-    //const [data, setData] = useState({});
-    const [title, setTitle] = useState("");
-    const [author, setAuthor] = useState("");
-    const [description, setDescription] = useState("");
+    const [books, setBooks] = useState([]);
+    const url = "../Data/sikkr.json";
 
     useEffect(() => {
-        if (!cobiss) return;
+        const fetchBooks = async () => {
+            const r = await fetch(url);
+            const data = await r.json();
+            setBooks(data);
+        };
 
-        const url = `https://plus.cobiss.net/cobiss/si/sl/data/cobib/${cobiss}`;
-        console.log("Fetching:", url);
+        fetchBooks();
+    }, [cobiss]);
 
-        fetch(url, { method: "GET"})
-            .then(res => res.json())
-            .then(data => {
 
-                console.log("COBISS response:", data)
+    if (!cobiss) return null;                                       // Če ni iskanega COBISS ID → ne prikaži nič
 
-                setTitle(data?.Naslov || "No title found");
-                setAuthor(data?.Avtor || "No author found");
-                setDescription(data?.Opis_gradiva || "No description found");
+    const filteredBooks = cobiss
+        ? books.filter(book => String(book["COBISS.ID"]) === String(cobiss))
+        : books;
 
-            })
-            .catch(err => console.log("COBISS error:", err));
-    },[cobiss])
+
+    if (filteredBooks.length === 0 ) {                               // Če ni najdenih knjig → prikaži sporočilo
+        return (
+            <div className="book-info">
+                <h1>Knjige še nisem bral</h1>
+            </div>
+        );
+    }
+
     return (
         <div>
-            <h2>{title}</h2>
-            <p><strong>Avtor:</strong> {author}</p>
-            <p><strong>Opis:</strong> {description}</p>
+            {filteredBooks.map((book, index) => (         //index namesto COBISS.ID, ker se COBISS.ID ponavlja
+                <div key={index} className="book-info_COBISS">
+                    <div className="book-details_COBISS">
+                        <h1>{book["COBISS.ID"]}</h1>
+                        <h1>{book["Datum izposoje"]}</h1>
+                    </div>
+
+                    <h1>{book["Avtor"]}: {book["Naslov"]}</h1>
+                    <div>{book["Opis gradiva"]}</div>
+                </div>
+            ))}
         </div>
-    )
-}
+    );
+};
 
 export default BookInfo_COBISS;
 

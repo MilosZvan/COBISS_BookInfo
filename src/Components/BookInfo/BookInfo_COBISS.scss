@@ -1,17 +1,18 @@
 @use "../../styles/common";
-.book-info {
+
+.book-info_COBISS {
   display: flex;
   flex-direction: column;
-  align-items: left;
   border: 1px solid common.$color-white;
   padding: 16px;
   color: common.$color-white;
   width: 90%;
   margin: 3px 0;
 }
-.book-details {
+.book-details_COBISS {
   display: flex;
+  flex-direction: column;
+  align-items: left;
   justify-content: flex-start;
-  flex-direction: row;
-  gap: 35px;
+
 }

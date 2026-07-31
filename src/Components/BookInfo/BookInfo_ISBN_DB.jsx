@@ -1,14 +1,8 @@
 import React, { useState, useEffect } from "react";
-import "./BookInfo.scss";
+import "./BookInfo_ISBN_DB.scss";
 
-const BookInfo_ISBN_DB= ({ isbn }) => {
-    const [title, setTitle] = useState("");
-    const [titleLong, setTitleLong] = useState("");
-    const [authors, setAuthors] = useState("");
-    const [datePublished, setDatePublished] = useState("");
-    const [language, setLanguage] = useState("");
-    const [pages, setPages] = useState("");
-    const [synopsis, setSynopsis] = useState("");
+const BookInfo_ISBN_DB = ({ isbn }) => {
+    const [book, setBook] = useState(null);
 
     useEffect(() => {
         if (!isbn) return;
@@ -17,42 +11,43 @@ const BookInfo_ISBN_DB= ({ isbn }) => {
             "Content-Type": "application/json",
             "Authorization": "70756_d42c0c0b13abd5c29b26f5d225eb400e"
         };
-        const url = `https://api2.isbndb.com/book/${isbn}`;
-        //console.log(url);
-        //console.log(headers);
 
-        fetch(url,  { headers })
+        const url = `https://api2.isbndb.com/book/${isbn}`;
+
+        fetch(url, { headers })
             .then(res => res.json())
             .then(json => {
                 console.log("Single_Book:", json);
-
-                const book = json.book;
-
-                setTitle(book?.title                      || "No title found");
-                setTitleLong(book?.title_long             || "No title_long found");
-                setAuthors(book?.authors?.join(", ")      || "No authors found");
-                setDatePublished(book?.date_published     || "No Date found");
-                setLanguage(book?.language                || "No language found");
-                setPages(book?.pages                      || "No pages found");
-                setSynopsis(book?.synopsis                || "No synopsis found");
-
+                setBook(json.book);
             })
-            .catch(error => console.error('Error:', error));
+            .catch(error => console.error("Error:", error));
+    }, [isbn]);
 
-    }, [isbn]); // IMPORTANT
+    console.log(book);
 
-    return  <div>
-                <div className="book-info">
-                    <h1>{isbn}                   </h1>
-                    <h1>{authors}: {title}       </h1>
-                    <div className="book-details">
-                        <p>Leto: {datePublished}</p>
-                        <p>Language: {language}</p>
-                        <p>Pages: {pages}</p>
+    if (!isbn) return null;
+    if (!book) return null;
+
+    return (
+            <div className="book-info_ISBN_DB" >
+
+                <div className="book-details_ISBN_DB">
+                    <h1>{isbn}</h1>
+                    <h1>{book.authors?.join(", ")}: {book.title}</h1>
+                    <div className="book-fakts_ISBN_DB">
+                        <p>Leto: {book.date_published || "No Date found"}</p>
+                        <p>Language: {book.language || "No language found"}</p>
+                        <p>Pages: {book.pages || "No pages found"}</p>
                     </div>
-                    <div>{synopsis}</div>
+                    <div>{book.synopsis || "No synopsis found"}</div>
                 </div>
+
+                <img className="book-cover_ISBN_DB" src={book.image} alt="Book cover" />
+
             </div>
+    );
 };
 
 export default BookInfo_ISBN_DB;
+
+

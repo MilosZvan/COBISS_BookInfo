@@ -1,0 +1,46 @@
+@use "../../styles/common";
+
+.book-info_ISBN_DB {
+  background: rgba(255, 0, 0, 0.1);
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 16px;
+
+  border: 1px solid common.$color-white;
+  padding: 16px;
+  color: common.$color-white;
+  margin: 3px 0;
+}
+
+.book-details_ISBN_DB {
+  background: rgba(0,255,0,0.1);
+  flex: 1;                 // zavzame ves levi prostor
+  min-width: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.book-cover_ISBN_DB {
+  background: rgba(0,0,255,0.1);
+  width: 300px;
+
+  height: auto;
+  flex-shrink: 0;        // prepreči, da bi se slika manjšala ali premikala
+  object-fit: contain;   //prepreči, da preseže prostor
+}
+
+.book-fakts_ISBN_DB {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  margin-right: 50px;
+}
+
+

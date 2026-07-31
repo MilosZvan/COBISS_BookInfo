@@ -14,4 +14,3 @@ const BookItem = ({Book, onRemove}) =>{
     )}
 
 export default BookItem;
-

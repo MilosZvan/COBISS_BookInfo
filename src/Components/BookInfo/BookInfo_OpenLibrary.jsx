@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
+import "./BookInfo_OpenLibrary.scss";
 
-const BookInfoOpenLibrary = ({ isbn }) => {
+const BookInfo_OpenLibrary = ({ isbn }) => {
     const [title, setTitle] = useState("");
     const [subtitle, setSubtitle] = useState("");
     const [authors, setAuthors] = useState("");
@@ -36,4 +37,4 @@ const BookInfoOpenLibrary = ({ isbn }) => {
             </div>
 };
 
-export default BookInfoOpenLibrary;
+export default BookInfo_OpenLibrary;
