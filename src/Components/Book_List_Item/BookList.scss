@@ -2,8 +2,11 @@
 .book-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 8px;
+  border: 1px solid common.$color-white;
+  padding: 16px;
+  color: common.$color-white;
+  width: 90%;
+  margin: 3px 0;
 }
 .book-info {
   display: flex;
@@ -14,4 +17,21 @@
   color: common.$color-white;
   width: 90%;
   margin: 3px 0;
+}
+
+.book-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+
+  .book-input-form {
+    border: 1px solid common.$color-white;
+    padding: 16px;
+    color: common.$color-white;
+    /*width: 30%;*/
+
+    margin: 3px 0;
+  }
 }
