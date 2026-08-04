@@ -1,13 +1,15 @@
 @use "../../styles/common";
 
+
 .book-search {
   width: 90%;
   display: flex;
   justify-content: center;
-  padding: 10px 30px;
+  padding: 0.625rem 1.875rem;
   color: common.$color-text;
   font-size: 1.25em;
-  border: 1px solid common.$color-text;
+  border: 0.063rem solid common.$color-section-cobiss;
+  border-width: 0.063rem 0.063rem 0.063rem 0.313rem;
 
   .book-search-row {
     width: 100%;
@@ -21,12 +23,12 @@
   }
 
   .book-search-input {
-    height: 50px;
-    border: 1px solid common.$color-text;
-    border-radius: 5px;
-    padding: 0 10px;
+    height: 3.125rem;
+    border: 0.063rem solid common.$color-text;
+    border-radius: 0.313rem;
+    padding: 0 0.625rem;
   }
 
-  .btn { height: 50px; }            // btn enake višine kot input
+  .btn { height: 3.125rem; }            // btn enake višine kot input
 }
 

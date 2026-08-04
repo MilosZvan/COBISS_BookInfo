@@ -3,11 +3,13 @@
 .book-info_COBISS {
   display: flex;
   flex-direction: column;
-  border: 1px solid common.$color-white;
-  padding: 16px;
-  color: common.$color-white;
+  border: 0.063rem solid common.$color-section-cobiss;
+  border-width: 0.063rem 0.063rem 0.063rem 0.313rem;
+  padding: 1rem;
+  color: common.$color-text;
   width: 90%;
-  margin: 3px 0;
+  margin-top: 0.063rem;
+  margin-bottom: 0.063rem;
 }
 .book-details_COBISS {
   display: flex;

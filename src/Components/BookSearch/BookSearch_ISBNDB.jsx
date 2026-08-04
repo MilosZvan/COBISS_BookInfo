@@ -12,11 +12,11 @@ const BookSearch_ISBNDB = ({ onSearch }) => {
     };
 
     return (
-        <div className="book-search" >
-            <div className="book-search-row" >
+        <div className="book-search-ISBNDB" >
+            <div className="book-search-row-ISBNDB" >
                 <form onSubmit={handleSubmit}>
                     <input
-                        className="book-search-input" name="book-search" type="text" placeholder="ISBN"
+                        className="book-search-input-ISBNDB" name="book-search" type="text" placeholder="ISBN"
                         value={value}
                         onChange={(e) => setValue(e.target.value)} />
                     <Button title="Search Book on net" classList="btn btn-primary" />

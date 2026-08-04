@@ -1,10 +1,18 @@
 @use "../../styles/common";
 
 .header {
+  width: 90%;
   text-align: center;
   h1 {
     font-size: 2rem;
     font-weight: 600;
-    color: common.$color-white;
+    color: common.$color-text;
+    
+    background: linear-gradient(
+            to right,
+            common.$color-section-cobiss 10%,
+            common.$color-section-items 90%
+    );
+
   }
 }

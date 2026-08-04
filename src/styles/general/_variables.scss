@@ -1,8 +1,14 @@
-$color-text: #BABABA;
-$color-bg: #202020;
-$color-white: #FFFFFF;
-$color-bgButton: #4C4C4C;
+$color-text: #BABABA;                         /* malo sivkasta  */
+$color-bg: #202020;                           /* črna           */
+$color-Button-bg: rgb(240, 160, 32);          /* orange         */
+$color-Button-txt: #202020;                   /* črna           */
+
+$color-bgButton: #008080;                     /* teal           */
+
 $color-bgButtonSearch: green;
 $color-bgButtonRemove: red;
+$color-section-cobiss: #006400;               /* dark green     */
+$color-section-isbn: #191970;                 /* midnight blue  */
+$color-section-items: #36013F;                /* deep purple    */
 
 $font-main: "Rubik", sans-serif;
