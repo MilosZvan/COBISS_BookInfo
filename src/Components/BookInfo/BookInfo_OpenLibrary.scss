@@ -3,11 +3,11 @@
 .book-info {
   display: flex;
   flex-direction: column;
-  border: 1px solid common.$color-text;
+  border: 0.063rem solid common.$color-text;
   padding: 16px;
   color: common.$color-text;
   width: 90%;
-  margin: 3px 0;
+  margin: 0.188rem 0;
 }
 .book-details {
   display: flex;
@@ -21,6 +21,6 @@
   flex-direction: column;
   align-items: left;
   justify-content: space-between;
-  gap: 1px;
+  gap: 0.063rem;
 }
 

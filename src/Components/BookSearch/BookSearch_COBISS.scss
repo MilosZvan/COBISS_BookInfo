@@ -1,7 +1,6 @@
 @use "../../styles/common";
 
-
-.book-search {
+.book-search-COBISS {
   width: 90%;
   display: flex;
   justify-content: center;
@@ -11,7 +10,7 @@
   border: 0.063rem solid common.$color-section-cobiss;
   border-width: 0.063rem 0.063rem 0.063rem 0.313rem;
 
-  .book-search-row {
+  .book-search-row-COBISS {
     width: 100%;
   }
 
@@ -22,7 +21,7 @@
     justify-content: space-between;   // input levo, button desno
   }
 
-  .book-search-input {
+  .book-search-input-COBISS {
     height: 3.125rem;
     border: 0.063rem solid common.$color-text;
     border-radius: 0.313rem;

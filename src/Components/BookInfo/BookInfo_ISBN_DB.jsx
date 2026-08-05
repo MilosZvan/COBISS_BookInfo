@@ -32,8 +32,11 @@ const BookInfo_ISBN_DB = ({ isbn }) => {
             <div className="book-info_ISBN_DB" >
 
                 <div className="book-details_ISBN_DB">
-                    <h1>{isbn}</h1>
-                    <h1>{book.authors?.join(", ")}: {book.title}</h1>
+
+                    <div className="book-info_avtor_title_ISBN_DB">{book.authors?.join(", ")}</div>
+                    <div className="book-info_avtor_title_ISBN_DB">{book.title}</div>
+
+                    <div>ISBN.DB: {isbn}</div>
                     <div className="book-fakts_ISBN_DB">
                         <p>Leto: {book.date_published || "No Date found"}</p>
                         <p>Language: {book.language || "No language found"}</p>

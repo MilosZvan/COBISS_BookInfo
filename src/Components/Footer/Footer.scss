@@ -1,14 +1,19 @@
 @use "../../styles/common";
 
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
-  gap: 3px;
-  p {
+  width: 90%;
+
+  div {
     font-size: 1rem;
     font-weight: 600;
-    color: common.$color-section-items;
+    color: common.$color-text;
+
+    background: linear-gradient(
+            to right,
+            common.$color-section-items 10%,
+            common.$color-section-cobiss 90%
+    );
+
   }
 }

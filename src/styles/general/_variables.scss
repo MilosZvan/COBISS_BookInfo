@@ -1,14 +1,27 @@
 $color-text: #BABABA;                         /* malo sivkasta  */
+$color-text: #ffffff;                         /* bela           */
+
 $color-bg: #202020;                           /* črna           */
 $color-Button-bg: rgb(240, 160, 32);          /* orange         */
+$color-Button-bg: #ff8c00          ;          /* dark orange    */
+$color-Button-bg: #ffd700          ;          /* gold           */
+
 $color-Button-txt: #202020;                   /* črna           */
 
 $color-bgButton: #008080;                     /* teal           */
-
 $color-bgButtonSearch: green;
+$color-bgButtonSearch: #00ff00;
+
 $color-bgButtonRemove: red;
+
 $color-section-cobiss: #006400;               /* dark green     */
+$color-section-cobiss: #00ff00;               /* lime green     */
+
 $color-section-isbn: #191970;                 /* midnight blue  */
+$color-section-isbn: #00bfff;                 /* deep sky blue  */
+
 $color-section-items: #36013F;                /* deep purple    */
+$color-section-items: #dda0dd;                /*        plum    */
+$color-section-items: #ff00ff;                /*     fuchsia    */
 
 $font-main: "Rubik", sans-serif;

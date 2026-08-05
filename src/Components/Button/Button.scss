@@ -1,18 +1,18 @@
 @use "../../styles/common";
 .btn {
-  border-radius: 8px;
-  font-size: 0.75em;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
   color: common.$color-Button-txt;
 }
 .btn-primary {
   background-color: common.$color-Button-bg ;
-  padding: 16px;
+  padding: 1rem;
 }
 .btn-search {
   background-color: common.$color-bgButtonSearch ;
-  padding: 16px;
+  padding: 1rem;
 }
 .btn-remove {
   background-color: common.$color-bgButtonRemove ;
-  padding: 16px;
+  padding: 1rem;
 }

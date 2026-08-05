@@ -35,13 +35,18 @@ const BookInfo_COBISS = ({ cobiss }) => {
         <div>
             {filteredBooks.map((book, index) => (         //index namesto COBISS.ID, ker se COBISS.ID ponavlja
                 <div key={index} className="book-info_COBISS">
-                    <div className="book-details_COBISS">
-                        <h1>{book["COBISS.ID"]}</h1>
-                        <h1>{book["Datum izposoje"]}</h1>
+
+                    <div className="book-info_avtor_title_COBISS">
+                        <div>{book["Avtor"]}</div>
+                        <div>{book["Naslov"]}</div>
                     </div>
 
-                    <h1>{book["Avtor"]}: {book["Naslov"]}</h1>
-                    <div>{book["Opis gradiva"]}</div>
+                    <div className="book-details_COBISS">
+                        <div>COBISS.ID: {book["COBISS.ID"]}</div>
+                        <div>Datum izposoje: {book["Datum izposoje"]}</div>
+                        <div>{book["Opis gradiva"]}</div>
+                    </div>
+
                 </div>
             ))}
         </div>

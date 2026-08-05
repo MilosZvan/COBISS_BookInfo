@@ -12,11 +12,11 @@ const BookSearch_COBISS = ({ onSearch }) => {
     };
 
     return (
-        <div className="book-search" >
-            <div className="book-search-row" >
+        <div className="book-search-COBISS" >
+            <div className="book-search-row-COBISS" >
                 <form onSubmit={handleSubmit}>
                     <input
-                        className="book-search-input" name="book-search" type="text" placeholder="COBISS.ID"
+                        className="book-search-input-COBISS" name="book-search" type="text" placeholder="COBISS.ID"
                         value={value}
                         onChange={(e) => setValue(e.target.value)} />
                     <Button title="Search Book in COBISS" classList="btn btn-primary" />
