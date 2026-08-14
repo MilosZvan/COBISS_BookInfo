@@ -1,10 +1,37 @@
 [
  {
+  "Datum izposoje": "20.07.2026",
+  "Naslov": "50 zrn sreče",
+  "Avtor": "Nussdorfer, Vlasta",
+  "COBISS.ID": "205850115",
+  "Opis gradiva": "TI=50 zrn sreče; AU=Nussdorfer, Vlasta; LA=slv; ES=1. izd.; PY=2024; PU=Združenje gluhoslepih Slovenije Dlan; PP=Ljubljana; CO=svn",
+  "Oddelek": "Kranj",
+  "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/205850115\/sikkr"
+ },
+ {
+  "Datum izposoje": "20.07.2026",
+  "Naslov": "Professional jQuery",
+  "Avtor": "Otero, César",
+  "COBISS.ID": "14191158",
+  "Opis gradiva": "TI=Professional jQuery; AU=Otero, César; LA=eng; PY=2012; PU=J. Wiley & Sons; PP=Indianapolis; CL=Wrox programmer to programmer; CO=usa",
+  "Oddelek": "Kranj",
+  "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/14191158\/sikkr"
+ },
+ {
+  "Datum izposoje": "20.07.2026",
+  "Naslov": "Črni princ",
+  "Avtor": "Svetek, Irena",
+  "COBISS.ID": "152429059",
+  "Opis gradiva": "TI=Črni princ; AU=Svetek, Irena; LA=slv; PY=2023; PU=Beletrina; PP=Ljubljana; CL=Knjižna zbirka Beletrina ; 581; CO=svn",
+  "Oddelek": "Kranj",
+  "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/152429059\/sikkr"
+ },
+ {
   "Datum izposoje": "08.07.2026",
   "Naslov": "Nedolžni",
   "Avtor": "White, Neil",
   "COBISS.ID": "71678211",
-  "Opis gradiva": "TI=Nedolžni; AU=White, Neil; LA=slv; PY=2021; PU=LYNX; PP=Juršinci; CO=svn",
+  "Opis gradiva": "TI=Nedolžni; AU=White, Neil; LA=slv; PY=2021; PU=LYNX; PP=Juršinci; CL=[Dan Grant Trilogy ; 3]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/71678211\/sikkr"
  },
@@ -157,7 +184,7 @@
   "Naslov": "Obnovi me",
   "Avtor": "Mafi, Tahereh",
   "COBISS.ID": "260278019",
-  "Opis gradiva": "TI=Obnovi me; AU=Mafi, Tahereh; LA=slv; ES=1. izd.; PY=2025; PU=Učila International; PP=Tržič; CO=svn",
+  "Opis gradiva": "TI=Obnovi me; AU=Mafi, Tahereh; LA=slv; ES=1. izd.; PY=2025; PU=Učila International; PP=Tržič; CL=[Raztrešči me ; 4]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/260278019\/sikkr"
  },
@@ -220,7 +247,7 @@
   "Naslov": "Kralj z gora",
   "Avtor": "Nesbø, Jo",
   "COBISS.ID": "229224451",
-  "Opis gradiva": "TI=Kralj z gora; AU=Nesbø, Jo; LA=slv; ES=1. izd.; PY=2025; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi; CO=svn",
+  "Opis gradiva": "TI=Kralj z gora; AU=Nesbø, Jo; LA=slv; ES=1. izd.; PY=2025; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi; [Kongeriket ; 2]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/229224451\/sikkr"
  },
@@ -292,7 +319,7 @@
   "Naslov": "Kralj z gora",
   "Avtor": "Nesbø, Jo",
   "COBISS.ID": "229224451",
-  "Opis gradiva": "TI=Kralj z gora; AU=Nesbø, Jo; LA=slv; ES=1. izd.; PY=2025; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi; CO=svn",
+  "Opis gradiva": "TI=Kralj z gora; AU=Nesbø, Jo; LA=slv; ES=1. izd.; PY=2025; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi; [Kongeriket ; 2]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/229224451\/sikkr"
  },
@@ -418,7 +445,7 @@
   "Naslov": "Kralj z gora",
   "Avtor": "Nesbø, Jo",
   "COBISS.ID": "229224451",
-  "Opis gradiva": "TI=Kralj z gora; AU=Nesbø, Jo; LA=slv; ES=1. izd.; PY=2025; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi; CO=svn",
+  "Opis gradiva": "TI=Kralj z gora; AU=Nesbø, Jo; LA=slv; ES=1. izd.; PY=2025; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi; [Kongeriket ; 2]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/229224451\/sikkr"
  },
@@ -490,7 +517,7 @@
   "Naslov": "Domino morilec : [tretja knjiga trilogije o Joeju in Samu Parkerju]",
   "Avtor": "White, Neil",
   "COBISS.ID": "215315203",
-  "Opis gradiva": "TI=Domino morilec : [tretja knjiga trilogije o Joe...; AU=White, Neil; LA=slv; PY=2025; PU=LYNX; PP=Braslovče; CO=svn",
+  "Opis gradiva": "TI=Domino morilec : [tretja knjiga trilogije o Joe...; AU=White, Neil; LA=slv; PY=2025; PU=LYNX; PP=Braslovče; CL=[Joe in Sam Parker ; 3]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/215315203\/sikkr"
  },
@@ -571,7 +598,7 @@
   "Naslov": "Domino morilec : [tretja knjiga trilogije o Joeju in Samu Parkerju]",
   "Avtor": "White, Neil",
   "COBISS.ID": "215315203",
-  "Opis gradiva": "TI=Domino morilec : [tretja knjiga trilogije o Joe...; AU=White, Neil; LA=slv; PY=2025; PU=LYNX; PP=Braslovče; CO=svn",
+  "Opis gradiva": "TI=Domino morilec : [tretja knjiga trilogije o Joe...; AU=White, Neil; LA=slv; PY=2025; PU=LYNX; PP=Braslovče; CL=[Joe in Sam Parker ; 3]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/215315203\/sikkr"
  },
@@ -661,7 +688,7 @@
   "Naslov": "Krvava luna",
   "Avtor": "Nesbø, Jo",
   "COBISS.ID": "203176195",
-  "Opis gradiva": "TI=Krvava luna; AU=Nesbø, Jo; LA=slv; ES=1. izd.; PY=2024; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi \/ Mladinska knjiga; CO=svn",
+  "Opis gradiva": "TI=Krvava luna; AU=Nesbø, Jo; LA=slv; ES=1. izd.; PY=2024; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi \/ Mladinska knjiga; [Harry Hole ; 13]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/203176195\/sikkr"
  },
@@ -829,10 +856,10 @@
  },
  {
   "Datum izposoje": "05.10.2024",
-  "Naslov": "Hiša vohunov. [7]",
+  "Naslov": "Hiša vohunov",
   "Avtor": "Silva, Daniel",
   "COBISS.ID": "200777987",
-  "Opis gradiva": "TI=Hiša vohunov. [7]; AU=Silva, Daniel; LA=slv; ES=1. izd.; PY=2024; PU=Hiša knjig, HKZ; PP=Ljubljana; CO=svn",
+  "Opis gradiva": "TI=Hiša vohunov; AU=Silva, Daniel; LA=slv; ES=1. izd.; PY=2024; PU=Hiša knjig, HKZ; PP=Ljubljana; CL=[Gabriel Allon ; 17]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/200777987\/sikkr"
  },
@@ -841,7 +868,7 @@
   "Naslov": "Obračun pri slapu : [primer višjega inšpektorja Ryana]",
   "Avtor": "Ross, Louise",
   "COBISS.ID": "197052675",
-  "Opis gradiva": "TI=Obračun pri slapu : [primer višjega inšpektorja...; AU=Ross, Louise; LA=slv; ES=1. izd.; PY=2024; PU=Učila International; PP=Tržič; CO=svn",
+  "Opis gradiva": "TI=Obračun pri slapu : [primer višjega inšpektorja...; AU=Ross, Louise; LA=slv; ES=1. izd.; PY=2024; PU=Učila International; PP=Tržič; CL=[DCI Ryan Mysteries Series ; 5]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/197052675\/sikkr"
  },
@@ -886,7 +913,7 @@
   "Naslov": "Klic kukavice",
   "Avtor": "Rowling, J. K.",
   "COBISS.ID": "273860864",
-  "Opis gradiva": "TI=Klic kukavice; AU=Rowling, J. K.; LA=slv; ES=1. izd.; PY=2014; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi \/ Mladinska knjiga; CO=svn",
+  "Opis gradiva": "TI=Klic kukavice; AU=Rowling, J. K.; LA=slv; ES=1. izd.; PY=2014; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi \/ Mladinska knjiga; [Cormoran Stri...; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/273860864\/sikkr"
  },
@@ -1066,7 +1093,7 @@
   "Naslov": "Operacija angel : [primer višjega inšpektorja Ryana]",
   "Avtor": "Ross, Louise",
   "COBISS.ID": "190816003",
-  "Opis gradiva": "TI=Operacija angel : [primer višjega inšpektorja R...; AU=Ross, Louise; LA=slv; ES=1. izd.; PY=2024; PU=Učila International; PP=Tržič; CO=svn",
+  "Opis gradiva": "TI=Operacija angel : [primer višjega inšpektorja R...; AU=Ross, Louise; LA=slv; ES=1. izd.; PY=2024; PU=Učila International; PP=Tržič; CL=[DCI Ryan Mysteries Series ; 4]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/190816003\/sikkr"
  },
@@ -1147,7 +1174,7 @@
   "Naslov": "Zbiratelj smrti : [druga knjiga trilogije o Joeju in Samu Parkerju]",
   "Avtor": "White, Neil",
   "COBISS.ID": "184584963",
-  "Opis gradiva": "TI=Zbiratelj smrti : [druga knjiga trilogije o Joe...; AU=White, Neil; LA=slv; PY=2024; PU=LYNX; PP=Braslovče; CO=svn",
+  "Opis gradiva": "TI=Zbiratelj smrti : [druga knjiga trilogije o Joe...; AU=White, Neil; LA=slv; PY=2024; PU=LYNX; PP=Braslovče; CL=[Joe in Sam Parker ; 2]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/184584963\/sikkr"
  },
@@ -1267,7 +1294,7 @@
   "Naslov": "Obramba",
   "Avtor": "Cavanagh, Steve",
   "COBISS.ID": "168092419",
-  "Opis gradiva": "TI=Obramba; AU=Cavanagh, Steve; LA=slv; ES=1. izd.; PY=2023; PU=Učila International; PP=Tržič; CO=svn",
+  "Opis gradiva": "TI=Obramba; AU=Cavanagh, Steve; LA=slv; ES=1. izd.; PY=2023; PU=Učila International; PP=Tržič; CL=[Eddie Flynn ; 1]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/168092419\/sikkr"
  },
@@ -1717,7 +1744,7 @@
   "Naslov": "Naslednja žrtev : [prva knjiga trilogije o Joeju in Samu Parkerju]",
   "Avtor": "White, Neil",
   "COBISS.ID": "117279491",
-  "Opis gradiva": "TI=Naslednja žrtev : [prva knjiga trilogije o Joej...; AU=White, Neil; LA=slv; PY=2022; PU=LYNX; PP=Juršinci; CO=svn",
+  "Opis gradiva": "TI=Naslednja žrtev : [prva knjiga trilogije o Joej...; AU=White, Neil; LA=slv; PY=2022; PU=LYNX; PP=Juršinci; CL=[Joe in Sam Parker ; 1]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/117279491\/sikkr"
  },
@@ -1741,10 +1768,10 @@
  },
  {
   "Datum izposoje": "30.11.2022",
-  "Naslov": "Črna vdova. [6]",
+  "Naslov": "Črna vdova",
   "Avtor": "Silva, Daniel",
   "COBISS.ID": "118099715",
-  "Opis gradiva": "TI=Črna vdova. [6]; AU=Silva, Daniel; LA=slv; ES=1. izd.; PY=2022; PU=Hiša knjig, HKZ; PP=Ljubljana; CO=svn",
+  "Opis gradiva": "TI=Črna vdova; AU=Silva, Daniel; LA=slv; ES=1. izd.; PY=2022; PU=Hiša knjig, HKZ; PP=Ljubljana; CL=[Gabriel Allon ; 16]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/118099715\/sikkr"
  },
@@ -2058,7 +2085,7 @@
   "Naslov": "Njegove zadnje besede",
   "Avtor": "Dave, Laura",
   "COBISS.ID": "87100163",
-  "Opis gradiva": "TI=Njegove zadnje besede; AU=Dave, Laura; LA=slv; ES=1. izd.; PY=2021; PU=Učila International; PP=Tržič; CO=svn",
+  "Opis gradiva": "TI=Njegove zadnje besede; AU=Dave, Laura; LA=slv; ES=1. izd.; PY=2021; PU=Učila International; PP=Tržič; CL=[Hannah Hall ; 1]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/87100163\/sikkr"
  },
@@ -2181,10 +2208,10 @@
  },
  {
   "Datum izposoje": "14.10.2021",
-  "Naslov": "Angleški vohun. [5]",
+  "Naslov": "Angleški vohun",
   "Avtor": "Silva, Daniel",
   "COBISS.ID": "65246211",
-  "Opis gradiva": "TI=Angleški vohun. [5]; AU=Silva, Daniel; LA=slv; ES=1. izd.; PY=2021; PU=Hiša knjig, HKZ; PP=Ljubljana; CO=svn",
+  "Opis gradiva": "TI=Angleški vohun; AU=Silva, Daniel; LA=slv; ES=1. izd.; PY=2021; PU=Hiša knjig, HKZ; PP=Ljubljana; CL=[Gabriel Allon ; 15]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/65246211\/sikkr"
  },
@@ -2202,7 +2229,7 @@
   "Naslov": "Nedolžni",
   "Avtor": "White, Neil",
   "COBISS.ID": "71678211",
-  "Opis gradiva": "TI=Nedolžni; AU=White, Neil; LA=slv; PY=2021; PU=LYNX; PP=Juršinci; CO=svn",
+  "Opis gradiva": "TI=Nedolžni; AU=White, Neil; LA=slv; PY=2021; PU=LYNX; PP=Juršinci; CL=[Dan Grant Trilogy ; 3]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/71678211\/sikkr"
  },
@@ -2220,7 +2247,7 @@
   "Naslov": "Umori pri Heavenfieldu : [primer višjega inšpektorja Ryana]",
   "Avtor": "Ross, Louise",
   "COBISS.ID": "70702339",
-  "Opis gradiva": "TI=Umori pri Heavenfieldu : [primer višjega inšpek...; AU=Ross, Louise; LA=slv; ES=1. izd.; PY=2021; PU=Učila International; PP=Tržič; CO=svn",
+  "Opis gradiva": "TI=Umori pri Heavenfieldu : [primer višjega inšpek...; AU=Ross, Louise; LA=slv; ES=1. izd.; PY=2021; PU=Učila International; PP=Tržič; CL=[DCI Ryan Mysteries Series ; 3]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/70702339\/sikkr"
  },
@@ -2262,10 +2289,10 @@
  },
  {
   "Datum izposoje": "17.07.2021",
-  "Naslov": "Rop. [4]",
+  "Naslov": "Rop",
   "Avtor": "Silva, Daniel",
   "COBISS.ID": "49544195",
-  "Opis gradiva": "TI=Rop. [4]; AU=Silva, Daniel; LA=slv; ES=1. izd.; PY=2021; PU=Hiša knjig, HKZ; PP=Ljubljana; CO=svn",
+  "Opis gradiva": "TI=Rop; AU=Silva, Daniel; LA=slv; ES=1. izd.; PY=2021; PU=Hiša knjig, HKZ; PP=Ljubljana; CL=[Gabriel Allon ; 14]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/49544195\/sikkr"
  },
@@ -2292,7 +2319,7 @@
   "Naslov": "Otok",
   "Avtor": "Ragnar Jónasson",
   "COBISS.ID": "48337155",
-  "Opis gradiva": "TI=Otok; AU=Ragnar Jónasson; LA=slv; ES=1. izd.; PY=2021; PU=Učila International; PP=Tržič; CO=svn",
+  "Opis gradiva": "TI=Otok; AU=Ragnar Jónasson; LA=slv; ES=1. izd.; PY=2021; PU=Učila International; PP=Tržič; CL=[Skrita Iskandija ; 2]; [Hidden Iceland ; 2]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/48337155\/sikkr"
  },
@@ -2310,7 +2337,7 @@
   "Naslov": "Sveti otok : [primer višjega inšpektorja Ryana]",
   "Avtor": "Ross, Louise",
   "COBISS.ID": "41607427",
-  "Opis gradiva": "TI=Sveti otok : [primer višjega inšpektorja Ryana]; AU=Ross, Louise; LA=slv; ES=1. izd.; PY=2021; PU=Učila International; PP=Tržič; CO=svn",
+  "Opis gradiva": "TI=Sveti otok : [primer višjega inšpektorja Ryana]; AU=Ross, Louise; LA=slv; ES=1. izd.; PY=2021; PU=Učila International; PP=Tržič; CL=[DCI Ryan Mysteries Series ; 1]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/41607427\/sikkr"
  },
@@ -2319,7 +2346,7 @@
   "Naslov": "Smrt pod platano : [primer višjega inšpektorja Ryana]",
   "Avtor": "Ross, Louise",
   "COBISS.ID": "52526339",
-  "Opis gradiva": "TI=Smrt pod platano : [primer višjega inšpektorja ...; AU=Ross, Louise; LA=slv; ES=1. izd.; PY=2021; PU=Učila International; PP=Tržič; CO=svn",
+  "Opis gradiva": "TI=Smrt pod platano : [primer višjega inšpektorja ...; AU=Ross, Louise; LA=slv; ES=1. izd.; PY=2021; PU=Učila International; PP=Tržič; CL=[DCI Ryan Mysteries Series ; 2]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/52526339\/sikkr"
  },
@@ -2415,10 +2442,10 @@
  },
  {
   "Datum izposoje": "22.09.2020",
-  "Naslov": "Angleško dekle. [3]",
+  "Naslov": "Angleško dekle",
   "Avtor": "Silva, Daniel",
   "COBISS.ID": "304398848",
-  "Opis gradiva": "TI=Angleško dekle. [3]; AU=Silva, Daniel; LA=slv; ES=1. izd.; PY=2020; PU=Hiša knjig, HKZ; PP=Ljubljana; CO=svn",
+  "Opis gradiva": "TI=Angleško dekle; AU=Silva, Daniel; LA=slv; ES=1. izd.; PY=2020; PU=Hiša knjig, HKZ; PP=Ljubljana; CL=[Gabriel Allon ; 13]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/304398848\/sikkr"
  },
@@ -3485,7 +3512,7 @@
   "Naslov": "Žeja",
   "Avtor": "Nesbø, Jo",
   "COBISS.ID": "290034432",
-  "Opis gradiva": "TI=Žeja; AU=Nesbø, Jo; LA=slv; ES=1. izd.; PY=2017; PU=Didakta; PP=Radovljica; CO=svn",
+  "Opis gradiva": "TI=Žeja; AU=Nesbø, Jo; LA=slv; ES=1. izd.; PY=2017; PU=Didakta; PP=Radovljica; CL=[Harry Hole ; 11]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/290034432\/sikkr"
  },
@@ -3834,7 +3861,7 @@
   "Naslov": "Netopir",
   "Avtor": "Nesbø, Jo",
   "COBISS.ID": "286893312",
-  "Opis gradiva": "TI=Netopir; AU=Nesbø, Jo; LA=slv; ES=1. izd.; PY=2016; PU=Didakta; PP=Radovljica; CO=svn",
+  "Opis gradiva": "TI=Netopir; AU=Nesbø, Jo; LA=slv; ES=1. izd.; PY=2016; PU=Didakta; PP=Radovljica; CL=[Harry Hole ; 1]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/286893312\/sikkr"
  },
@@ -3888,7 +3915,7 @@
   "Naslov": "Osumljenec",
   "Avtor": "Robotham, Michael",
   "COBISS.ID": "279745792",
-  "Opis gradiva": "TI=Osumljenec; AU=Robotham, Michael; LA=slv; ES=1. izd.; PY=2015; PU=Učila International; PP=Tržič; CO=svn",
+  "Opis gradiva": "TI=Osumljenec; AU=Robotham, Michael; LA=slv; ES=1. izd.; PY=2015; PU=Učila International; PP=Tržič; CL=[Joseph O'Loughlin ; 1]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/279745792\/sikkr"
  },
@@ -4110,7 +4137,7 @@
   "Naslov": "Policija",
   "Avtor": "Nesbø, Jo",
   "COBISS.ID": "284617984",
-  "Opis gradiva": "TI=Policija; AU=Nesbø, Jo; LA=slv; ES=1. izd.; PY=2016; PU=Didakta; PP=Radovljica; CO=svn",
+  "Opis gradiva": "TI=Policija; AU=Nesbø, Jo; LA=slv; ES=1. izd.; PY=2016; PU=Didakta; PP=Radovljica; CL=[Harry Hole ; 10]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/284617984\/sikkr"
  },
@@ -4128,7 +4155,7 @@
   "Naslov": "Brat",
   "Avtor": "Zander, Joakim",
   "COBISS.ID": "284390144",
-  "Opis gradiva": "TI=Brat; AU=Zander, Joakim; LA=slv; ES=1. izd.; PY=2016; PU=Učila International; PP=Tržič; CO=svn",
+  "Opis gradiva": "TI=Brat; AU=Zander, Joakim; LA=slv; ES=1. izd.; PY=2016; PU=Učila International; PP=Tržič; CL=[Klara Walldéen ; 2]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/284390144\/sikkr"
  },
@@ -4569,7 +4596,7 @@
   "Naslov": "Sviloprejka",
   "Avtor": "Rowling, J. K.",
   "COBISS.ID": "278963456",
-  "Opis gradiva": "TI=Sviloprejka; AU=Rowling, J. K.; LA=slv; ES=1. izd.; PY=2015; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi; CO=svn",
+  "Opis gradiva": "TI=Sviloprejka; AU=Rowling, J. K.; LA=slv; ES=1. izd.; PY=2015; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi; [Cormoran Strike Series ; 2]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/278963456\/sikkr"
  },
@@ -4830,7 +4857,7 @@
   "Naslov": "Brezskrbno",
   "Avtor": "Nesbø, Jo",
   "COBISS.ID": "256204544",
-  "Opis gradiva": "TI=Brezskrbno; AU=Nesbø, Jo; LA=slv; ES=1. izd.; PY=2011; PU=Didakta; PP=Radovljica; CO=svn",
+  "Opis gradiva": "TI=Brezskrbno; AU=Nesbø, Jo; LA=slv; ES=1. izd.; PY=2011; PU=Didakta; PP=Radovljica; CL=[Harry Hole ; 4]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/256204544\/sikkr"
  },
@@ -5060,7 +5087,7 @@
   "Naslov": "13. bomba",
   "Avtor": "Patterson, James",
   "COBISS.ID": "275045632",
-  "Opis gradiva": "TI=13. bomba; AU=Patterson, James; LA=slv; ES=1. izd.; PY=2014; PU=Učila International; PP=Tržič; CL=Zbirka Klub preiskovalk umorov \/ James Patterson; CO=svn",
+  "Opis gradiva": "TI=13. bomba; AU=Patterson, James; LA=slv; ES=1. izd.; PY=2014; PU=Učila International; PP=Tržič; CL=Zbirka Klub preiskovalk umorov \/ James Patterso...; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/275045632\/sikkr"
  },
@@ -5955,7 +5982,7 @@
   "Naslov": "Vesel božič, Alex Cross : [18. primer Alexa Crossa]",
   "Avtor": "Patterson, James",
   "COBISS.ID": "268347392",
-  "Opis gradiva": "TI=Vesel božič, Alex Cross : [18. primer Alexa Cro...; AU=Patterson, James; LA=slv; ES=1. izd.; PY=2013; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi \/ Mladinska knjiga; CO=svn",
+  "Opis gradiva": "TI=Vesel božič, Alex Cross : [18. primer Alexa Cro...; AU=Patterson, James; LA=slv; ES=1. izd.; PY=2013; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi \/ Mladinska knjiga; [Alex Cross ; 18]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/268347392\/sikkr"
  },
@@ -6062,7 +6089,7 @@
   "Naslov": "Črni red",
   "Avtor": "Rollins, James",
   "COBISS.ID": "244907520",
-  "Opis gradiva": "TI=Črni red; AU=Rollins, James; LA=slv; ES=1. izd.; PY=2009; PU=Meander; PP=Izola; CO=svn",
+  "Opis gradiva": "TI=Črni red; AU=Rollins, James; LA=slv; ES=1. izd.; PY=2009; PU=Meander; PP=Izola; CL=[Sigma Force ; 3]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/244907520\/sikkr"
  },
@@ -6866,7 +6893,7 @@
   "Naslov": "Judežev rod",
   "Avtor": "Rollins, James",
   "COBISS.ID": "260859392",
-  "Opis gradiva": "TI=Judežev rod; AU=Rollins, James; LA=slv; ES=1. izd.; PY=2012; PU=Meander; PP=Izola; CO=svn",
+  "Opis gradiva": "TI=Judežev rod; AU=Rollins, James; LA=slv; ES=1. izd.; PY=2012; PU=Meander; PP=Izola; CL=[Sigma Force ; 4]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/260859392\/sikkr"
  },
@@ -6929,7 +6956,7 @@
   "Naslov": "Ubiti Alexa Crossa : [17. primer Alexa Crossa]",
   "Avtor": "Patterson, James",
   "COBISS.ID": "260065024",
-  "Opis gradiva": "TI=Ubiti Alexa Crossa : [17. primer Alexa Crossa]; AU=Patterson, James; LA=slv; ES=1. izd.; PY=2012; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi \/ Mladinska knjiga; CO=svn",
+  "Opis gradiva": "TI=Ubiti Alexa Crossa : [17. primer Alexa Crossa]; AU=Patterson, James; LA=slv; ES=1. izd.; PY=2012; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi \/ Mladinska knjiga; [Alex Cross ; 17]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/260065024\/sikkr"
  },
@@ -7118,7 +7145,7 @@
   "Naslov": "Cross : [dvanajsti primer Alexa Crossa]",
   "Avtor": "Patterson, James",
   "COBISS.ID": "241244928",
-  "Opis gradiva": "TI=Cross : [dvanajsti primer Alexa Crossa]; AU=Patterson, James; LA=slv; ES=1. izd.; PY=2009; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi \/ Mladinska knjiga; CO=svn",
+  "Opis gradiva": "TI=Cross : [dvanajsti primer Alexa Crossa]; AU=Patterson, James; LA=slv; ES=1. izd.; PY=2009; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi \/ Mladinska knjiga; [Alex Cross ; 12]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/241244928\/sikkr"
  },
@@ -7811,7 +7838,7 @@
   "Naslov": "Čez drn in strn : [štirinajsti primer Alexa Crossa]",
   "Avtor": "Patterson, James",
   "COBISS.ID": "251655168",
-  "Opis gradiva": "TI=Čez drn in strn : [štirinajsti primer Alexa Cro...; AU=Patterson, James; LA=slv; ES=1. izd.; PY=2010; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi; CO=svn",
+  "Opis gradiva": "TI=Čez drn in strn : [štirinajsti primer Alexa Cro...; AU=Patterson, James; LA=slv; ES=1. izd.; PY=2010; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi; [Alex Cross ; 14]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/251655168\/sikkr"
  },
@@ -7838,7 +7865,7 @@
   "Naslov": "Dva proti enemu : [trinajsti primer Alexa Crossa]",
   "Avtor": "Patterson, James",
   "COBISS.ID": "251358464",
-  "Opis gradiva": "TI=Dva proti enemu : [trinajsti primer Alexa Crossa]; AU=Patterson, James; LA=slv; ES=1. izd.; PY=2010; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi; CO=svn",
+  "Opis gradiva": "TI=Dva proti enemu : [trinajsti primer Alexa Crossa]; AU=Patterson, James; LA=slv; ES=1. izd.; PY=2010; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi; [Alex Cross ; 13]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/251358464\/sikkr"
  },
@@ -9082,7 +9109,7 @@
   "Naslov": "Mary, Mary : [enajsti primer Alexa Crossa]",
   "Avtor": "Patterson, James",
   "COBISS.ID": "238664192",
-  "Opis gradiva": "TI=Mary, Mary : [enajsti primer Alexa Crossa]; AU=Patterson, James; LA=slv; ES=1. izd.; PY=2008; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi \/ Mladinska knjiga; CO=svn",
+  "Opis gradiva": "TI=Mary, Mary : [enajsti primer Alexa Crossa]; AU=Patterson, James; LA=slv; ES=1. izd.; PY=2008; PU=Mladinska knjiga; PP=Ljubljana; CL=Zbirka Krimi \/ Mladinska knjiga; [Alex Cross ; 11]; CO=svn",
   "Oddelek": "Kranj",
   "Povezava": "https:\/\/plus.cobiss.net\/cobiss\/si\/sl\/data\/cobib\/238664192\/sikkr"
  },

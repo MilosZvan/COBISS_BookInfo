@@ -9,8 +9,9 @@ const BookInfo_ISBN_DB = ({ isbn }) => {
 
         const headers = {
             "Content-Type": "application/json",
-            "Authorization": "70756_d42c0c0b13abd5c29b26f5d225eb400e"
+            "Authorization": import.meta.env.VITE_ISBN_KEY
         };
+        console.log("Authorization:", import.meta.env.VITE_ISBN_KEY)
 
         const url = `https://api2.isbndb.com/book/${isbn}`;
 

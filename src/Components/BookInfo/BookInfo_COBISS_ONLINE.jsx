@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import "./BookInfo_COBISS.scss";
 
 const BookInfo_COBISS_ONLINE = ({ cobiss }) => {
     //const [data, setData] = useState({});

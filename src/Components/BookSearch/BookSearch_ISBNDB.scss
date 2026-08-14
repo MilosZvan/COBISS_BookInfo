@@ -1,7 +1,7 @@
 @use "../../styles/common";
 
 .book-search-ISBNDB {
-  width: 90%;
+  width: common.$width-size;
   display: flex;
   justify-content: center;
   padding: 0.625rem 1.875rem;

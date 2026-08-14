@@ -1,7 +1,7 @@
 @use "../../styles/common";
 
 .book-info_COBISS {
-  width: 90%;
+  width: common.$width-size;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -16,7 +16,7 @@
 }
 
 .book-info_avtor_title_COBISS {
-  width: 100%;
+  width: common.$width-size;
   display: flex;
   flex-direction: column;
   align-items: left;

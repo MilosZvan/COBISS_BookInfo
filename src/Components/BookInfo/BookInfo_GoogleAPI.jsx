@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./BookInfo_GoogleAPI.scss";
 
 const BookInfo_GoogleAPI = ({ isbn }) => {
     const [title, setTitle] = useState("");

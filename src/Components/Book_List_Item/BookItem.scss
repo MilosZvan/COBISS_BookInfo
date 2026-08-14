@@ -1,5 +1,7 @@
 @use "../../styles/common";
+
 .book-item {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,7 +9,6 @@
   border-width: 0.063rem 0.063rem 0.063rem 0.313rem;
   padding: 1rem;
   color: common.$color-text;
-  width: 100%;
   margin: 0.188rem 0;
 }
 .book-actions {
