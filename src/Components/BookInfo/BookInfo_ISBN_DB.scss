@@ -15,6 +15,15 @@
   margin: 0.188rem 0;
 }
 
+.book-details_ISBN_DB {
+  flex: 1;                 // zavzame ves levi prostor
+  min-width: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
 .book-info_avtor_title_ISBN_DB {
   width: common.$width-size;
   display: flex;
@@ -27,23 +36,6 @@
   margin-bottom: 0.063rem;
 }
 
-.book-details_ISBN_DB {
-  flex: 1;                 // zavzame ves levi prostor
-  min-width: 0;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-}
-
-.book-cover_ISBN_DB {
-  width: 300px;
-
-  height: auto;
-  flex-shrink: 0;        // prepreči, da bi se slika manjšala ali premikala
-  object-fit: contain;   //prepreči, da preseže prostor
-}
-
 .book-fakts_ISBN_DB {
   display: flex;
   flex-direction: row;
@@ -51,4 +43,10 @@
   justify-content: space-between;
   gap: 3.125rem;
   margin-right: 3.125rem;
+}
+
+.book-cover_ISBN_DB {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
 }

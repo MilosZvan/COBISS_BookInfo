@@ -6,3 +6,15 @@ body {
   color: common.$color-text;
   font-family: common.$font-main;
 }
+
+#center {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+

@@ -10,6 +10,8 @@ const BookList = () => {
 
     const url = "/Data/sikkr.json";                                       //kje so podatki (public jemlje kot root)
 
+
+
     const handleRemove = (id) => {                                         //handle za brisanje
         setBooks(prev => prev.filter(book => book["COBISS.ID"] !== id));
     };
@@ -17,6 +19,8 @@ const BookList = () => {
     const handleSearch = (author) => {                                     //handle za search
         setAvtorFilter(author);
     };
+
+
 
     useEffect(() => {                                               //pridobi vse podatke v sikkr.json
         const fetchBooks = async () => {
@@ -30,12 +34,12 @@ const BookList = () => {
     // -----------------------------
     // FILTRIRANJE
     // -----------------------------
-    const filteredBooks = Books.filter(book => {                        //filter na avtorju in naslovu
+    const filteredBooks = Books.filter(book => {                //filter na avtorju in/ali naslovu
         const avtor = (book.Avtor || "").toLowerCase();         //tolowerCase, da išče ne glede na to
         const naslov = (book.Naslov || "").toLowerCase();       // kako je napisan avtor in/ali naslov
 
         return (
-            avtor.includes(avtorFilter.toLowerCase()) &&                //includes pomeni, da vsebuje string
+            avtor.includes(avtorFilter.toLowerCase()) &&              //includes pomeni, da vsebuje string
             naslov.includes(naslovFilter.toLowerCase())
         );
     });
@@ -71,11 +75,11 @@ const BookList = () => {
 
             {/* PRIKAZ KNJIG */}
             {filteredBooks.map((Book, index) => (                   //pokaže filtrirane podatke
-                <BookItem
+                <BookItem                                                   //kliče BookItem
                     Book={Book}
                     key={index}
                     id={Book["COBISS.ID"]}
-                    //onRemove={handleRemove}                               //začasno ugasnjeno, sicer deluje
+                    onRemove={handleRemove}                               //če daš je začasno ugasnjeno, sicer deluje
                     onSearch={handleSearch}
                 />
             ))}

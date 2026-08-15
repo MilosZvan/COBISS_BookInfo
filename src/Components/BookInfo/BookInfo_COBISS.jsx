@@ -1,9 +1,13 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./BookInfo_COBISS.scss";
 
 const BookInfo_COBISS = ({ cobiss }) => {
     const [books, setBooks] = useState([]);
-    const url = "../Data/sikkr.json";
+    const url = "../Data/sikkr.json";                        // kje so podatki (public jemlje kot root)
+
+    const coverUrl = `https://d.cobiss.net/repository/si/thumbnails/cobib/${cobiss}`;
+
+    console.log(coverUrl);
 
     useEffect(() => {
         const fetchBooks = async () => {
@@ -17,6 +21,8 @@ const BookInfo_COBISS = ({ cobiss }) => {
 
 
     if (!cobiss) return null;                                       // Če ni iskanega COBISS ID → ne prikaži nič
+
+    console.log(books);
 
     const filteredBooks = cobiss
         ? books.filter(book => String(book["COBISS.ID"]) === String(cobiss))
@@ -47,6 +53,8 @@ const BookInfo_COBISS = ({ cobiss }) => {
                         <div>{book["Opis gradiva"]}</div>
                     </div>
 
+                    <img className="book-cover_COBISS" src={coverUrl} alt={book.title}
+                         onError={(e) => e.target.style.display = "none"} />
                 </div>
             ))}
         </div>

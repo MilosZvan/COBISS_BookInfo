@@ -2,7 +2,11 @@ import "./BookItem.scss";
 import "./BookItem.scss";
 import Button from "../Button/Button.jsx";
 
-const BookItem = ({Book, onRemove, onSearch}) =>{           //dobi Book, vrne onRemove in onSearch
+//dobi Book, vrne onRemove in onSearch nazaj v klicni objekt
+
+const BookItem = ({Book, onRemove, onSearch}) =>{
+
+    //prikaz posamezne knjige, če je onRemove ali onSearch se vrne v BookList in naredi handle
 
     return (
         <div className="book-item">

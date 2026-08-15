@@ -9,13 +9,13 @@ const BookInfo_ISBN_DB = ({ isbn }) => {
 
         const headers = {
             "Content-Type": "application/json",
-            "Authorization": import.meta.env.VITE_ISBN_KEY
+            "Authorization": import.meta.env.VITE_ISBN_KEY                  //ENV spremenljivka, ki ne gre na GITHUB
         };
-        console.log("Authorization:", import.meta.env.VITE_ISBN_KEY)
+        //console.log("Authorization:", import.meta.env.VITE_ISBN_KEY)//
 
         const url = `https://api2.isbndb.com/book/${isbn}`;
 
-        fetch(url, { headers })
+        fetch(url, { headers })                         // pridobi podatke o knjigi po ISBN.DB
             .then(res => res.json())
             .then(json => {
                 console.log("Single_Book:", json);
@@ -26,8 +26,8 @@ const BookInfo_ISBN_DB = ({ isbn }) => {
 
     console.log(book);
 
-    if (!isbn) return null;
-    if (!book) return null;
+    if (!isbn) return null;                                 //če je isbn prazno ne vrne nič
+    if (!book) return null;                                 //če je book prazno ne vrne nič
 
     return (
             <div className="book-info_ISBN_DB" >
