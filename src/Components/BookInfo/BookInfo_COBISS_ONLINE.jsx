@@ -10,7 +10,7 @@ const BookInfo_COBISS_ONLINE = ({ cobiss }) => {
     useEffect(() => {
         if (!cobiss) return;
 
-        const url = `https://plus.cobiss.net/cobiss/si/sl/data/cobib/${cobiss}`;
+        const url = `https://plus.cobiss.net/cobiss/si/sl/data/cobib/${cobiss}/SIKKR`;
         console.log("Fetching:", url);
 
         fetch(url, { method: "GET"})

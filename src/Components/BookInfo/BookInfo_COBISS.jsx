@@ -5,7 +5,7 @@ const BookInfo_COBISS = ({ cobiss }) => {
     const [books, setBooks] = useState([]);
     const url = "../Data/sikkr.json";                        // kje so podatki (public jemlje kot root)
 
-    const coverUrl = `https://d.cobiss.net/repository/si/thumbnails/cobib/${cobiss}`;
+    const coverUrl = `https://d.cobiss.net/repository/si/thumbnails/cobib/${cobiss}`;       //url za sliko
 
     console.log(coverUrl);
 

@@ -11,6 +11,7 @@ const BookSearch_ISBN = ({ onSearch }) => {
         onSearch(value);                                     // send ISBN to App
     };
 
+    // onSubmit naredi handleSubmit
     return (
         <div className="book-search-ISBNDB" >
             <div className="book-search-row-ISBNDB" >

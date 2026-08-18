@@ -30,7 +30,7 @@ const BookInfo_ISBN_DB = ({ isbn }) => {
 
     return (
             <div className="book-info_ISBN_DB" >
-
+                <div> ISBN_DB: {isbn} </div>
                 <div className="book-details_ISBN_DB">
 
                     <div className="book-info_avtor_title_ISBN_DB">{book.authors?.join(", ")}</div>

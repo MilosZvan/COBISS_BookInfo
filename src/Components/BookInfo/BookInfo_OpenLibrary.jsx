@@ -3,8 +3,7 @@ import "./BookInfo_OpenLibrary.scss";
 
 const BookInfo_OpenLibrary = ({ isbn }) => {
     const [book, setBook] = useState(null);
-
-    const coverUrl = `https://covers.openlibrary.org/b/isbn/${isbn}-L.jpg`;
+    const [error, setError] = useState(null);
 
     useEffect(() => {
         if (!isbn) return;
@@ -15,16 +14,32 @@ const BookInfo_OpenLibrary = ({ isbn }) => {
             .then(res => res.json())
             .then(data => {
                 const entry = data[`ISBN:${isbn}`];
-                const details = entry?.details;
 
-                console.log(details);
+                //if (!entry || !entry.details) {
+                //    setError("OpenLibrary nima podatkov za ta ISBN.");
+                //    setBook(null);
+                //    return;
+                //}
 
-                // Avthorjev je lahko več
-                const authorNames = Array.isArray(details.authors)
-                    ? details.authors
-                        .map(a => (typeof a === "string" ? a : a.name))
-                        .join(", ")
-                    : "No authors found";
+                if (!entry || !entry.details) {                         //retry za branje po timeoutu
+                    if (!retry) {
+                        // retry once after 1 second
+                        setTimeout(() => fetchData(true), 2000);
+                    } else {
+                        setBook(null);
+                    }
+                    return;
+                }
+
+                const details = entry.details;
+
+                // Avtorji – lahko so objekti ali stringi, lahko jih je tudi več
+                 let authorNames = "No authors found";
+                if (Array.isArray(details.authors)) {
+                    authorNames = details.authors
+                        .map(a => a.name || a)
+                        .join(", ");
+                }
 
                 const isbn10 = Array.isArray(details.isbn_10)
                     ? details.isbn_10.join(", ")
@@ -36,7 +51,7 @@ const BookInfo_OpenLibrary = ({ isbn }) => {
 
                 setBook({
                     title: details.title || "No title found",
-                    subtitle: details.subtitle || "No subtitle found",
+                    subtitle: details.subtitle || "",
                     authors: authorNames,
                     isbn_10: isbn10,
                     isbn_13: isbn13,
@@ -44,14 +59,31 @@ const BookInfo_OpenLibrary = ({ isbn }) => {
                     number_of_pages: details.number_of_pages || "No Pages found",
                 });
             })
-            .catch(err => console.error(err));
-    }, [isbn]);
+            .catch(err => {
+                console.error(err);
+                setError("Napaka pri branju OpenLibrary API.");
+            });
+    }, [isbn]);                                 //ponovno ber, če se spremeni isbn
 
     if (!isbn) return null;
+
+    if (error) {
+        return (
+            <div className="book-info_OL">
+                <div>OpenLibrary: {isbn}</div>
+                <div className="book-details_OL error">{error}</div>
+            </div>
+        );
+    }
+
     if (!book) return null;
+
+    const coverUrl = `https://covers.openlibrary.org/b/isbn/${isbn}-L.jpg`;
 
     return (
         <div className="book-info_OL">
+            <div>OpenLibrary: {isbn}</div>
+
             <div className="book-details_OL">
                 <div className="book-info_avtor_title_OL">{book.authors}</div>
                 <div className="book-info_avtor_title_OL">{book.title}</div>
@@ -64,8 +96,12 @@ const BookInfo_OpenLibrary = ({ isbn }) => {
                 </div>
             </div>
 
-            <img className="book-cover_OL" src={coverUrl} alt={book.title}
-                 onError={(e) => e.target.style.display = "none"} />
+            <img
+                className="book-cover_OL"
+                src={coverUrl}
+                alt={book.title}
+                onError={(e) => (e.target.style.display = "none")}
+            />
         </div>
     );
 };

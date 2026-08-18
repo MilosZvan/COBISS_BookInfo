@@ -11,6 +11,7 @@ const BookSearch_COBISS = ({ onSearch }) => {
         onSearch(value);                                     // send COBISS.ID to App
     };
 
+    // onSubmit naredi handleSubmit
     return (
         <div className="book-search-COBISS" >
             <div className="book-search-row-COBISS" >
