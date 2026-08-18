@@ -1,9 +1,9 @@
 import { useState } from "react";
-import "./BookSearch_ISBN_DB.scss";
+import "./BookSearch_ISBN.scss";
 
 import Button from "../Button/Button.jsx";
 
-const BookSearch_ISBN_DB = ({ onSearch }) => {
+const BookSearch_ISBN = ({ onSearch }) => {
     const [value, setValue] = useState("");
 
     const handleSubmit = (e) => {
@@ -26,5 +26,5 @@ const BookSearch_ISBN_DB = ({ onSearch }) => {
     );
 };
 
-export default BookSearch_ISBN_DB;
+export default BookSearch_ISBN;
 

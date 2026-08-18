@@ -17,22 +17,9 @@ const BookInfo_OpenLibrary = ({ isbn }) => {
                 const entry = data[`ISBN:${isbn}`];
                 const details = entry?.details;
 
-                if (!details) {
-                    setBook({
-                        title: "No title found",
-                        subtitle: "No subtitle found",
-                        authors: "No authors found",
-                        isbn_10: "No ISBN 10 found",
-                        isbn_13: "No ISBN 13 found",
-                        publish_date: "No Date found",
-                        number_of_pages: "No Pages found",
-                    });
-                    return;
-                }
-
                 console.log(details);
 
-                // Authors can be objects or strings
+                // Avthorjev je lahko več
                 const authorNames = Array.isArray(details.authors)
                     ? details.authors
                         .map(a => (typeof a === "string" ? a : a.name))
@@ -60,7 +47,8 @@ const BookInfo_OpenLibrary = ({ isbn }) => {
             .catch(err => console.error(err));
     }, [isbn]);
 
-    if (!isbn || !book) return null;
+    if (!isbn) return null;
+    if (!book) return null;
 
     return (
         <div className="book-info_OL">
