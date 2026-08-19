@@ -37,4 +37,16 @@
   max-width: 200px;
   width: 100%;
   height: auto;
+  //flex-wrap: nowrap;        /* pomembno za telefon, da skoči v novo vrstico */
+}
+
+/* mobile layout */
+@media (max-width: 768px) {
+  .book-info_COBISS {
+    flex-direction: column;
+  }
+
+  .book-cover_COBISS {
+    flex-wrap: nowrap;    /* pomembno za desktop, da ne skoči v novo vrstico */
+  }
 }

@@ -50,3 +50,14 @@
   width: 100%;
   height: auto;
 }
+
+/* mobile layout */
+@media (max-width: 768px) {
+  .book-info_ISBN_DB {
+    flex-direction: column;
+  }
+
+  .book-actions {
+    flex-wrap: wrap;    /* pomembno za telefon, da skoči v novo vrstico */
+  }
+}
